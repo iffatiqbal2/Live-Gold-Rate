@@ -1,0 +1,14 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Custom shadow for cards */
+.hover\:shadow-xl:hover {
+    box-shadow: 0 20px 25px -5px rgba(234, 179, 8, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
